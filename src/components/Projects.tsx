@@ -2,6 +2,9 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import imagep3 from '../public/assets/react.png';
+import imagep4 from '../public/assets/hotel.png';
+import imagep5 from '../public/assets/javascript.png';
 
 const projects = [
   {
@@ -27,7 +30,7 @@ const projects = [
     id: 3,
     title: 'Project 3',
     description: 'projects.project3.description',
-    image: 'src/public/assets/react.png',
+    image: imagep3,
     tech: ['React', 'Css', 'Bootstrap', 'Api'],
     github: 'https://github.com/SaloAlex/Entrega-Final-Alexander-Salomon-React.git',
     demo: 'https://glittery-madeleine-9451cb.netlify.app/',
@@ -36,7 +39,7 @@ const projects = [
     id: 4,
     title: 'Project 4',
     description: 'projects.project4.description',
-    image: 'src/public/assets/hotel.png',
+    image: imagep4,
     tech: ['Html', 'Css', 'Sass', 'Bootstrap'],
     github: 'https://github.com/SaloAlex/Hotel-Resort-HTML-CSS.git',
     demo: 'https://saloalex.github.io/Hotel-Resort-HTML-CSS/',
@@ -45,7 +48,7 @@ const projects = [
     id: 5,
     title: 'Project 5',
     description: 'projects.project5.description',
-    image:'https://github.com/SaloAlex/Portafolio/blob/main/src/assets/project-2.jpg?raw=true' ,
+    image:imagep5 ,
     tech: ['Html', 'Css', 'Javascript', 'Bootstrap', 'Api'],
     github: 'https://github.com/SaloAlex/E-comerce-Javascript-vanilla.git',
     demo: 'https://saloalex.github.io/E-comerce-Javascript-vanilla/',

@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import foto from '../public/assets/foto.jpg';
 
 const LINKS = {
   email: "mailto:dvdsalomon6@gmail.com",
@@ -73,7 +74,7 @@ export default function Hero() {
           <div className="relative group">
             <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full overflow-hidden border-4 border-primary/20 transition-transform duration-300 transform group-hover:scale-105 group-hover:shadow-xl">
               <img
-                src="src/public/assets/foto.jpg"
+                src={foto}
                 alt={t('hero.altText', { defaultValue: 'Profile Picture' })}
                 className="w-full h-full object-cover transition-transform duration-300 transform group-hover:scale-110"
               />
