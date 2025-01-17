@@ -33,7 +33,7 @@ export default function App() {
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl font-bold text-primary dark:text-primary-light"
           >
-            AlexSalo Portfolio
+            AlexSalo Developer
           </motion.h1>
           <div className="flex gap-4 items-center">
             {/* Language Selector */}
